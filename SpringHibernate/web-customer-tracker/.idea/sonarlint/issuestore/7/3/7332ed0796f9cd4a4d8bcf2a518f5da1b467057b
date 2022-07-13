@@ -1,0 +1,8 @@
+
+~
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "customers".(°ô†ä8¢ØÂ0
+€
+java:S14886"cImmediately return this expression instead of assigning it to the temporary variable "theCustomer".(ÔıŒá8¤ØÂ0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é¶à8¦ØÂ0
+w
+java:S1128	"URemove this unused import 'org.springframework.transaction.annotation.Transactional'.(ğùçøùÿÿÿÿ8ĞØÂ0

@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’õ«Ñşÿÿÿÿ
+T
+java:S1172&">Remove these unused method parameters "theAccount", "vipFlag".(Ïã½ê
+S	java:S106("9Replace this use of System.out or System.err by a logger.(¾Ì½òùÿÿÿÿ
+M	java:S106."9Replace this use of System.out or System.err by a logger.(¤Ÿ…&
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(â¹ñâ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ĞØ”™ıÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(˜äÿÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(Â¼ óøÿÿÿÿ

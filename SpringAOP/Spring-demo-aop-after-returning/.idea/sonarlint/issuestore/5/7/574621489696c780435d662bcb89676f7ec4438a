@@ -1,0 +1,7 @@
+
+…
+java:S4165"cRemove this useless assignment; "level" already holds the assigned value along all execution paths.(±£ôÖüÿÿÿÿ8½²òˆƒ0
+H
+java:S1172"+Remove this unused method parameter "leve".(Í…ë²8È²òˆƒ0
+Q
+java:S1656"/Remove or correct this useless self-assignment.(±£ôÖüÿÿÿÿ8Ê²òˆƒ0

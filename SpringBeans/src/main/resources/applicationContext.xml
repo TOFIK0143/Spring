@@ -1,0 +1,40 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--    load the properties file here using context-->
+    <context:property-placeholder location="classpath:Sport.properties"/>
+
+    <bean id="myFortune"
+          class="com.demo.springdemoIOC_DI.HappyFortuneService">
+    </bean>
+
+    <bean id="myCoach"
+          class="com.demo.springdemoIOC_DI.TrackCoach">
+        <!-- set up constructor injection -->
+        <constructor-arg ref="myFortune"></constructor-arg>
+    </bean>
+
+
+    <bean id="myCricketCoach"
+          class="com.demo.springdemoIOC_DI.CricketCoach">
+        <!-- set up setter injection -->
+        <property name="fortuneService" ref="myFortune"/>
+        <!--        it will call setFortuneService from cricketCoach class-->
+
+
+        <!--        injecting literal value-->
+        <!--        <property name="emailAddress" value="theBestCoach@csk.com"/>-->
+        <!--        <property name="team" value="Chennai Super Kings"/>-->
+
+        <!--       inject values using properties file -->
+        <property name="emailAddress" value="${foo.email}"/>
+        <property name="team" value="${foo.team}"/>
+    </bean>
+</beans>

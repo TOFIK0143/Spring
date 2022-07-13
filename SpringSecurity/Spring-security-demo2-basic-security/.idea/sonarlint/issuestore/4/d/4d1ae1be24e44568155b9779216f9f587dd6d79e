@@ -1,0 +1,6 @@
+
+c
+java:S1192"HDefine a constant instead of duplicating this literal "test123" 3 times.(Ù°ÞÊÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈÏñð
+_
+java:S1874"BRemove this use of "withDefaultPasswordEncoder"; it is deprecated.(Ú¨”í8ùàë„„0
